@@ -1,0 +1,37 @@
+.venv/
+private_sessions/
+__pycache__/
+*.pyc
+*.docx
+*.vtt
+*.txt
+.env
+# Python virtual environment
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Confidential interview sessions and mappings
+private_sessions/
+
+# Interview data and exports
+*.docx
+*.doc
+*.vtt
+*.pdf
+*.txt
+
+# Local configuration and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+!requirements.txt
